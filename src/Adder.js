@@ -6,17 +6,17 @@ const Adder = () => {
   const [secondNum, setSecondNum] = useState('');
   //const [showResult, SetShowResult] = useState(false);
 
-  const triggerFirstNum = (e) => {
-    console.log('triggerFirstNum called.');
-    setFirstNum(e.target.value);
-    //SetShowResult(true);
-  }
+  // const triggerFirstNum = (e) => {
+  //   console.log('triggerFirstNum called.');
+  //   setFirstNum(e.target.value);
+  //   //SetShowResult(true);
+  // }
 
-  const triggerSecondNum = (e) => {
-    console.log('triggerSecondNum called.');
-    setSecondNum(e.target.value);
-    //SetShowResult(true);
-  }
+  // const triggerSecondNum = (e) => {
+  //   console.log('triggerSecondNum called.');
+  //   setSecondNum(e.target.value);
+  //   //SetShowResult(true);
+  // }
 
   const clearFields = () => {
     setFirstNum('');
